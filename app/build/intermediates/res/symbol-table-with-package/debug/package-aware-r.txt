@@ -839,7 +839,6 @@ id bounce
 id buttonPanel
 id button_next
 id button_previous
-id button_room
 id center
 id center_horizontal
 id center_vertical
@@ -889,7 +888,6 @@ id icon
 id icon_group
 id ifRoom
 id image
-id imageView_dog
 id info
 id invisible
 id italic

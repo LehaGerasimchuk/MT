@@ -63,20 +63,6 @@ class MainActivity : AppCompatActivity() {
                 })
         }
 
-        //Room Button
-        button_room.setOnClickListener {
-            Toast.makeText(applicationContext, "Room", Toast.LENGTH_LONG).show()
-
-            mydb.locationsDao().getAll()
-                .subscribeOn(Schedulers.io())
-                .observeOn(AndroidSchedulers.mainThread())
-                .subscribe({
-                    Log.d("getAll", "dogs image urls" + it.toString())
-                },{
-                    Log.d("Error:getAll", "lols")
-                })
-        }
-
         textview.setText("Zaglushka")
 
         //Retrofit

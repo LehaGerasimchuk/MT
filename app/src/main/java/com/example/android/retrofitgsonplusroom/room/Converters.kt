@@ -1,7 +1,6 @@
 package com.example.android.retrofitgsonplusroom.room
 
 import androidx.room.TypeConverter
-//import com.example.android.retrofitgsonplusroom.model.Dogs
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 
